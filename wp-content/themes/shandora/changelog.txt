@@ -1,0 +1,241 @@
+t==Changelog==
+
+= v1.0 =
+* Original Release.
+
+= v1.0.1 - Septeember 18th, 2013 =
+* Added Integration for dsIDXPress MLS
+* Added Options for search panel
+* Added widget for IDX Search
+* Removed furnished from template meta ( by request )
+* Fix Header Social Icon
+
+= v1.0.2 - Septeember 21st, 2013 =
+* Added Map browse when browse listing
+
+= v1.0.3 - Septeember 31th, 2013 =
+* Fix IDX Listing Bug
+
+= v1.0.4 - October 2nd, 2013 =
+* Added Related Widget Listing
+* Update support for bon toolkit 1.1.0
+* Added sidebar generator to support bon toolkit Page builder widget element
+
+= v1.0.5 - October 3rd, 2013 =
+* Fix search panel issue
+
+= v1.0.6 - October 5th, 2013 =
+* Added Custom Search Field
+* Added Options to remove social Icons
+* Fix several bugs
+
+= v1.0.7 - October 10th, 2013 =
+* New Car Dealership Listing
+* New Custom Search Field For Car Listing
+* Car Listing Page Template
+* Added Sorting feature
+* Added new theme option for column
+
+= v1.0.8 - October 25th, 2013 =
+* Fix Translation Issue
+* Added Related Properties in Listing Detail
+
+= v1.0.9 - October 30th, 2013 =
+* Update for WordPress 3.7
+* Update Import Export extensions
+
+= v1.1.0 - November 12th, 2013 =
+* Fix Taxonomy Archive Bug
+* Added New Widget
+* Added Affix Feature
+
+= v1.1.1 - November 16th, 2013 =
+* Fix Related Post
+* Fix Translation
+
+= v1.2 - November 23th, 2013 =
+* Fix Android Issue
+* Added IDX Pro Search
+* Added Widget Calculator
+
+= v1.2.1 - December 2nd, 2013 =
+* Patch for the accidentally removed map
+
+= v1.2.2 - December 13rd, 2013 =
+* Add New Options in Theme Options
+* Update Languange Files
+* Fix Bug for IDX Sold Property
+
+= v1.2.3 - December 14th, 2013 =
+* Fixed Accidentally removed variable
+* Added Dummy data for Car Listings
+
+= v1.2.4 - December 16th, 2013 =
+* Add Icon Lists to Documentation
+* Add Options to enable / disable search panel
+* Add Manufacturer Level Search
+* Fix Media Query Bug
+* Update Translation
+
+= v1.2.5 - Decmber 19th, 2013 =
+* Fix Thumbnail size on full width layout
+* Add Options for Price as Text
+* Fix WordPress Admin Bar bug due to Foundation Tooltip
+
+= v1.3.0 - January 2nd, 2014 =
+* Updated Admin Interface to suit WP3.8 New Look
+* Fix Mistypo in theme options
+* Tidy up blocking javascript into one file
+* Tidy up blocking CSS into one file
+* Update FontAwesome Font Icon to v4.0
+
+= v1.3.1 - January 3rd, 2014 =
+* Fix Map
+
+= v1.3.2 - January 10th, 2014 =
+* Added Map Zoom Button on all listings map ( Feature Request )
+* Fix IDX results page
+
+= v1.3.3 - January 10th, 2014 =
+* Fixed Price as Text
+
+= v1.3.4 - January 25th, 2014 =
+* Minor Framework Update
+* fix deprecated calls
+* Allow Text Logo
+
+= v1.3.5 - February 8th, 2014 =
+* Fix Print CSS
+* Fix Mobile Nav Issue
+* New Action Hook for Content Listing
+
+= v1.3.6 - February 14th, 2014 =
+* Update Listing Tab for Filter Ready in block-listingtab.php and block-carlistingtab.php
+* Update theme-options.php to include URL Rewrite Feature
+* Update theme-options.php to include slider interval option
+* Update loop-slider.php
+* Update theme-posttypes.php to for URL Rewrite Feature
+* Update theme-posttypes.php to include Job Title for agent and sales representative
+* Update search-fields.php, adding "Rented" Feature
+* Update all css files in assets/css/colors/ directory for rented badge
+* Update content-agent.php and content-sales-representative.php to output Job Title
+* Added New loop.php in loops/ directory for global loop
+* Update index.php for case use loop template part
+* update wpml-config.xml for URL Rewrite String
+
+= v1.4.0 - March 18th, 2014 =
+* Improve overall javascript efficiency on custom.js
+* Added several new style on each css file on assets/css/colors/
+* Added several new style on style.css
+* Added new list view
+* Fix WPML compatibility with multi language search field on theme-actions.php
+* several code change on new features theme-hooks.php, theme-actions.php, theme-supports.php, content-listing.php, content-car-listing.php
+* Added new block-listing-footer.php and  block-listing-header.php
+* Added Default sort order on page-template-search-listings.php, page-template-search-car-listing.php, theme-options.php, theme-actions.php, page-template-all-listings.php, page-template-all-car-listings.php
+* Improve SEO compatibility by removing and adding conditional to h1 tag usage on several page title and logo
+
+= v1.4.1 - March 30th, 2014 =
+* Fixed map images on loop-listing.php
+* Fixed car listing badge on block-listing-header.php
+* Fixed Mistypo on content-agent.php and content-sales-repesentative.php
+* Added new options to filter by post title in custom search fields on theme-options.php and search-fields.php
+
+= v1.4.2 - April 10th, 2014 =
+* Fixed car search ajax issue in custom.js
+
+= v1.4.3 - April 14th, 2014 =
+* Added more Color Options to Contact Form Button
+* Added more Color Options to Agent Element in Page Builder 
+
+= v1.4.4 - April 24th, 2014 =
+* Fixed Font Customizer in theme-fonts.php and theme-supports.php
+* Added New Header Options for default header state in theme-options.php, theme-hooks.php, style.css, and custom.js 
+* Added New Header Options to disable / enable column info
+* Remove Direction Nav on Slider when only 1 slide to show in all.css
+*Fixed Comparison table on mobile device
+
+= v1.4.5 - April 26th, 2014 =
+* Fixed Call to Action Corner rendering on Chrome, update all files in css/colors/ folder and style.css
+* Fixed Morgage Availability issue in block-listingtab.php
+
+= v1.4.6 - April 30th, 2014 =
+* Minor conditional bug fix for import / export menu in class-bon-backup.php
+
+= v1.4.7 - May 4th, 2014 =
+* Add Measurement to Details Tab in block-listingtab.php
+* Fixed IE10 Loan Widget
+
+= v1.4.8 - May 5th, 2014 =
+* Fixed TinyMCE editor in Theme Options
+
+= v1.4.9 - May 12th, 2014 =
+* Added DPE / Ges Graph options for European Listing in theme-hooks.php and theme-posttypes.php
+* Added new Options for specific query on Status Page Template in theme-posttypes.php, page-template-status.php and page-template-car-status.php
+* Fixed Price as Text on Price = 1.000 value bug in theme-action.php
+* update input-filter.php for better input sanitization
+
+= v2.0 - June, 2014 =
+* Update Theme Options Interface admin.css
+* Add Admin Bar Menu Class - class-bon-admin-bar.php
+* Added year display in content tab in block-carlistingtab.php
+* Allow Page builder usage in other post type theme-supports.php, bon-toolkit plugin update required
+* Fixed IDX v2.1.4 Search Widget CSS - style.css
+* Fixed Shortcode button for WP3.9+ - all files tinymce/ directory
+* Added Mega Menu Feature in classes/menus directory
+* Added WPML Language Selector in top menu and footer - theme-hooks.php, theme-actions.php
+* Added output filter for search listings form in theme-actions.php
+* Allow exclude sold and rented status from query
+* New Fuel Type Dropdown for car listing
+* New Template option to exclude/include element
+
+= v2.1 - 1st August, 2014 =
+* Allow slider to show in home page for default page template
+* Added Front End Editing feature for the listing
+* Added Front End Account Editing
+* Rearrange the templates/ folder for better file structure
+* Restyle blog search results page
+* Update Language file
+
+= v2.1.1 - 11st August, 2014 =
+* Fix Icon picker in mega menu
+* Fix Property type dropdown in Page Builder listing element
+
+= v2.2.0 - 3rd October, 2014 =
+* Fix Slider issue for lazy load image
+* Added Total room option in search field
+* Update compatibility with WP 4.0
+
+= v2.2.1 - 7th December, 2014 =
+* Added add to favorite listing
+* New Account template in templates directory
+* Front end editor now supporting metabox
+* Added secondary price
+* Fixed car listing url permalink
+
+= v2.2.2 - 8th December, 2014 =
+* Fix secondary price when not filled
+
+= v2.2.3 - 12nd December, 2014 =
+* Added Map feature to the listing element in page builder
+* Fixed language / translation issue
+* Added additional author query for page-template-property-status.php
+
+= v2.3 - 7th May, 2015 =
+* Added Several filter and action hooks on theme-posttypes.php
+* Added Filter hooks on the-janitor.php
+* Fixed WordPress Security Issue in add_query_arg and remove_query_arg
+* Fixed Schema.org microdata for car listing
+* Fixed google map tooltip
+
+= v2.3.1 - 17th May, 2015 = 
+* Fixed accidentally disabled mega menu feature
+
+
+
+
+
+
+
+
+
+

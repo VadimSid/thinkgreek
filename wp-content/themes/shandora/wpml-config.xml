@@ -1,0 +1,27 @@
+<wpml-config>
+  <admin-texts>
+    <key name="shandora">
+      <key name="hgroup1_title" />
+      <key name="hgroup2_title" />
+      <key name="search_button_label" />
+      <key name="footer_copyright" />
+      <key name="price_text" />
+      <key name="location_level1_label" />
+      <key name="location_level2_label" />
+      <key name="location_level3_label" />
+      <key name="manufacturer_level1_label" />
+      <key name="manufacturer_level2_label" />
+      <key name="manufacturer_level3_label" />
+      <key name="rewrite_root" />
+      <key name="realestate_root" />
+      <key name="realestate_property_type_root" />
+      <key name="realestate_property_location_root" />
+      <key name="realestate_property_feature_root" />
+      <key name="car_root" />
+      <key name="car_manufacturer_root" />
+      <key name="car_body_type_root" />
+      <key name="car_dealer_location_root" />
+      <key name="car_feature_root" />
+      <key name="secondary_price_end" />
+    </key>
+</wpml-config>

@@ -1,0 +1,493 @@
+@import "compass/css3/box-sizing";
+@import "compass/css3/box-shadow";
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/transition";
+@import "compass/css3/border-radius";
+#bon-fee-post {
+	@include clearfix();
+}
+#wp-content-editor-container {
+    border: 1px solid #e5e5e5;
+}
+#bon-fee-postdivrich {
+	margin-bottom: 20px;
+}
+#bon-fee-postdivrich, #bon-fee-postdivrich *, #bon-fee-postdivrich *:before, #bon-fee-postdivrich *:after {
+    
+}
+#wp-content-media-buttons {
+    margin-bottom: 4px;
+}
+#wp-content-media-buttons a {
+    font-weight: normal;
+    background: #f7f7f7;
+    height: 28px;
+    padding: 0 7px 1px 5px;
+}
+.wp-switch-editor {
+    height: 31px !important;
+}
+.html-active .switch-html, .tmce-active .switch-tmce {
+    height: 31px !important;
+}
+.mce-toolbar .mce-btn button:hover {
+    background: #fff;
+}
+#bon-fee-post-body {
+	margin-right: 300px;
+}
+#bon-fee-post-body-content, #bon-fee-postbox-container-2 {
+	width: 100%;
+	float: left;
+}
+
+#bon-fee-postbox-container-1 {
+	float: right;
+	width: 280px;
+	margin-right: -300px;
+}
+#bon-fee-titlewrap {
+	margin-bottom: 1em;
+	input {
+		background-color: #fff;
+	    font-size: 1.5em;
+	    height: auto;
+	    line-height: 100%;
+	    margin: 0;
+	    outline: 0 none;
+	    padding: 5px 8px;
+	    width: 100%;
+	}
+}
+/* POSTBOX */
+.bon-fee-postbox-container {
+	#timestampdiv {
+	    line-height: 23px;
+	}
+	#timestampdiv select {
+	    font-size: 12px;
+	    height: 21px;
+	    line-height: 14px;
+	    padding: 0;
+	    vertical-align: top;
+	}
+	label {
+		font-size: inherit;
+		display: inline;
+	}
+	.misc-pub-section {
+	    padding: 6px 10px 8px;
+	    label {
+		    vertical-align: baseline;
+		}
+		
+	}
+	#minor-publishing-actions {
+	    padding: 10px 10px 0;
+	    text-align: right;
+	}
+	#major-publishing-actions {
+	    background: #f5f5f5;
+	    border-top: 1px solid #ddd;
+	    clear: both;
+	    padding: 10px;
+	}
+	#post-status-display, #post-visibility-display {
+		font-weight: bold;
+	}
+	#misc-publishing-actions {
+		select, input[type="text"] {
+			width: auto;
+			height: auto;
+			display: inline-block;
+		}
+		#jj, #hh, #mn {
+		    width: 2em;
+		}
+		#aa, #jj, #hh, #mn {
+		    font-size: 12px;
+		    padding: 1px;
+		}
+		label[for="post_status"]:before {
+		    content: "\f173";
+		    display: inline-block;
+		    font: 20px/1 'dashicons';
+		    left: -1px;
+		    padding: 0 5px 0 0;
+		    position: relative;
+		    text-decoration: none !important;
+		    top: 0;
+		    vertical-align: top;
+		}
+		.curtime #timestamp:before, #visibility:before {
+		    display: inline-block;
+		    font: 20px/1 'dashicons';
+		    left: -1px;
+		    padding: 0 2px 0 0;
+		    position: relative;
+		    text-decoration: none !important;
+		    top: 0;
+		    vertical-align: top;
+		}
+		.curtime #timestamp:before {
+			content: "\f145";
+		}
+		#visibility:before {
+			content: "\f177";
+		}
+	}
+
+	.submitbox .submitdelete {
+	    padding: 1px 2px;
+	    text-decoration: none;
+	    color: #a00;
+	}
+	#delete-action {
+	    float: left;
+	    line-height: 28px;
+	    text-align: left;
+	    vertical-align: middle;
+	}
+	#publishing-action {
+	    float: right;
+	    line-height: 23px;
+	    text-align: right;
+	}
+	#submitdiv .inside {
+	    margin: 0;
+	    padding: 0;
+	}
+	p, span, label, div {
+		font-weight: normal;
+	}
+	font-size: 13px;
+	.postbox, .stuffbox {
+	    line-height: 1;
+	    margin-bottom: 20px;
+	    padding: 0;
+	}
+    .postbox {
+    	position: relative;
+		min-width: 255px;
+		border: 1px solid #e5e5e5;
+		@include box-shadow( 0 1px 1px rgba(0,0,0,0.04) );
+		background: #fff;
+		margin-bottom: 20px;
+		h3 {
+			margin-top: 1px;
+			margin-bottom: 1em;
+			border-bottom: 1px solid #e5e5e5;
+			font-size: 14px;
+			font-weight: bold;
+		}
+		p {
+		    font-size: 13px;
+		    line-height: 1.5;
+		    margin: 1em 0;
+		}
+		.hndle {
+			padding: 8px 12px;
+			cursor: pointer;
+			color: #222;
+			margin: 0;
+			span {
+				font-weight: bold;
+				color: inherit;
+			}
+		}
+		.handlediv {
+			float: right;
+			width: 30px;
+			padding: 8px 12px;
+			position: relative;
+			cursor: pointer;
+			
+			&:after {
+				position: absolute;
+				content: "";
+				border-style: solid;
+				border-width: 6px 5px 0 5px;
+				top: 50%;
+				right: 10px;
+				border-color: rgb(170,170,170) transparent transparent;
+			}
+		}
+		&.closed {
+			.handlediv {
+				&:before {
+					top: 50%;
+					position: absolute;
+					content: "";
+					border-style: solid;
+					right: 10px;
+					border-width: 0 5px 6px 5px;
+					border-color: transparent transparent rgb(170,170,170) transparent;
+				}
+				&:after {
+					display: none;
+				}
+			}
+		}
+    }
+}
+.bon-fee-postbox-container {
+	.inside {
+	    margin: 6px 0 0;
+	    > p:last-child {
+	    	margin-bottom: 0;
+	    }
+	    #postcustomstuff {
+	    	table {
+			    background-color: #f9f9f9;
+			    border: 1px solid #dfdfdf;
+			    border-spacing: 0;
+			    margin: 0;
+			    width: 100%;
+			    border-collapse: separate;
+			    input, select, textarea {
+				    margin: 8px;
+				    width: 96%;
+				}
+				
+				tr, td, th {
+					@include box-sizing( content-box );
+				}
+				td * {
+					@include box-sizing( border-box );
+				}
+			}
+			thead th {
+			    background-color: #f1f1f1;
+			    padding: 8px 0 10px;
+			    text-align: center;
+			}
+			td, th {
+				width: 62%;
+			}
+			td.left, th.left {
+				width: 38%;
+				float: none;
+			}
+			td, th {
+				display: inline-block;
+				padding: 0;
+			}
+		    tr {
+		    	vertical-align: top;
+		    }
+		    .alt, .alternate {
+			    background-color: #f9f9f9;
+			}
+			.submit input {
+			    margin: 0;
+			    width: auto;
+			}
+			.submit {
+				border: 0 none;
+			    float: none;
+			    padding: 0 8px 8px;
+			}
+			#newmetaleft a {
+			    display: inline-block;
+			    margin: 0 8px 8px;
+			    text-decoration: none;
+			}
+		}
+	}
+	.postbox .inside {
+	    margin: 6px 0 0;
+	    position: relative;
+	}
+	.postbox .inside, .stuffbox .inside {
+	    font-size: 13px;
+	    line-height: 1.4em;
+	    padding: 0 12px 12px;
+	}
+	h4 {
+	    font-size: 1em;
+	    font-weight: bold;
+	    margin: 1.33em 0;
+	}
+	ul {
+		list-style: none;
+		margin: 0;
+	}
+	ul.category-tabs {
+		margin: 12px 0 2px;
+		color: #333;
+		.tabs {
+			background-color: #fdfdfd;
+		    border-color: #dfdfdf #dfdfdf #fdfdfd;
+		    border-image: none;
+		    border-style: solid;
+		    border-width: 1px;
+		    a {
+    			color: inherit;
+    		}
+		}
+		li {
+			padding: 5px 7px 5px 7px;
+			position: relative;
+			display: inline;
+    		line-height: 1em;
+		}
+	}
+	.tabs-panel {
+		background-color: #fdfdfd;
+	    border: 1px solid #dfdfdf;
+	    max-height: 200px;
+	    min-height: 42px;
+	    overflow: auto;
+	    padding: 0 0.9em;
+	}
+	ul.categorychecklist {
+		margin: 12px 0;
+		li {
+		    line-height: 22px;
+		    margin: 0;
+		    padding: 0;
+		    word-wrap: break-word;
+		    .children {
+		    	margin-left: 18px;
+		    }
+		}
+	}
+	label, input {
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+	input[type="checkbox"], input[type="radio"] {
+	    background: #fff;
+	    border: 1px solid #bbb;
+	    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+	    box-sizing: border-box;
+	    clear: none;
+	    color: #555;
+	    cursor: pointer;
+	    display: inline-block;
+	    height: 16px;
+	    line-height: 0;
+	    margin: -4px 4px 0 0;
+	    min-width: 16px;
+	    outline: 0 none;
+	    padding: 0 !important;
+	    text-align: center;
+	    transition: border-color 0.05s ease-in-out 0s;
+	    vertical-align: middle;
+	    width: 16px;
+	}
+	select, input[type="text"], textarea {
+		padding: 5px;
+		font-size: 13px;
+		border: 1px solid #e5e5e5;
+		@include box-shadow( 0 1px 2px rgba(0, 0, 0, 0.07) inset );
+	    color: #333;
+	    @include transition( border-color 0.05s ease-in-out 0s );
+	    margin: 0 0 1em;
+	}
+	.screen-reader-text, .screen-reader-text span, .ui-helper-hidden-accessible {
+	    border: 0 none;
+	    clip: rect(0px, 0px, 0px, 0px);
+	    height: 1px;
+	    margin: -1px;
+	    overflow: hidden;
+	    padding: 0;
+	    position: absolute;
+	    width: 1px;
+	}
+
+	.ui-tabs-hide, .wp-hidden-children .wp-hidden-child {
+	    display: none;
+	}
+	.tagsdiv .newtag {
+	    width: 180px;
+	}
+	.ajaxtag .newtag {
+	    position: relative;
+	}
+	#search-plugins input[name="s"], .search-box input[name="s"], .tagsdiv .newtag {
+	    float: left;
+	    height: 28px;
+	    margin: 0 4px 0 0;
+	}
+	.button, button, input[type="submit"] {
+		@include border-radius( 3px );
+	    border-style: solid;
+	    border-width: 1px;
+	    cursor: pointer;
+	    display: inline-block;
+	    font-size: 13px;
+	    height: 28px;
+	    line-height: 26px;
+	    margin: 0;
+	    padding: 0 10px 1px;
+	    text-decoration: none;
+	    white-space: nowrap;
+	    font-weight: normal;
+	}
+	.taghint {
+	    color: #aaa;
+	    margin: -17px 0 0 7px;
+	    visibility: hidden;
+	}
+
+	.tagchecklist {
+		font-size: 12px;
+	    margin-left: 14px;
+	    overflow: auto;
+		span {
+		    cursor: default;
+		    display: block;
+		    float: left;
+		    font-size: 13px;
+		    line-height: 1.8em;
+		    margin-right: 25px;
+		    white-space: nowrap;
+		    a {
+			    cursor: pointer;
+			    display: block;
+			    float: left;
+			    height: 20px;
+			    margin: 1px 0 0 -17px;
+			    overflow: hidden;
+			    position: absolute;
+			    text-indent: 0;
+			    width: 20px;
+			    &:before {
+				    color: #bbb;
+				    content: "\f153";
+				    display: block !important;
+				    font: 16px/1 'dashicons';
+				    height: 20px;
+				    margin: 2px 0;
+				    text-align: center;
+				    width: 20px;
+				}
+			}
+		}
+	}
+	.categorydiv h4 a, .tagcloud-link, .the-tagcloud a {
+		text-decoration: underline;
+	}
+	.the-tagcloud {
+	    border: 1px solid #ddd;
+	    border-radius: 6px;
+	    line-height: 1.8em;
+	    margin: 5px 0 10px;
+	    padding: 8px;
+	    word-spacing: 3px;
+	}
+}
+.ac_results {
+    background-color: #fff;
+    border: 1px solid #808080;
+    display: none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 10000;
+}
+.hidden, .js .closed .inside, .js .hide-if-js, .js .wp-core-ui .hide-if-js, .js.wp-core-ui .hide-if-js, .no-js .hide-if-no-js, .no-js .wp-core-ui .hide-if-no-js, .no-js.wp-core-ui .hide-if-no-js {
+	display: none;
+}
